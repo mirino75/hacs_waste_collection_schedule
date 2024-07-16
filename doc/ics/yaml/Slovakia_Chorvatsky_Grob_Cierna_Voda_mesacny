@@ -1,1 +1,10 @@
-
+title: Slovakia_Chorvatsky_Grob_Cierna_Voda_mesacny
+url: https://odvoz-odpadu.eu/miesto/70-chorvatsky-grob-cierna-voda-mesacny
+howto: |
+   - Goto <https://www.abfall-eglz.de/abfallkalender.html> and select your municipality.  
+   - Right-click on `Entsorgungstermine als iCalendar herunterladen` and copy link address.
+   - Replace the `url` in the example configuration with this link.
+test_cases:
+   Oppach:
+       url: "https://odvoz-odpadu.eu/miesto/70/kalendar.ics"
+#       split_at: " & "
